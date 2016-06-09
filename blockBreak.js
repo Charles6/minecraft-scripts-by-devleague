@@ -13,7 +13,7 @@ function blockDestroy( event ){
   }
 
   else {
-  		self.inventory.addItem(items.cookie(1));
+    self.inventory.addItem(items.cookie(1));
   };
 
 }

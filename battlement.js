@@ -29,5 +29,4 @@ function battlement( sections ) {
       .down(1)
   }
 };
-//var Drone = require('drone');
 Drone.extend( battlement );

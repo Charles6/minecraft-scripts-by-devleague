@@ -11,8 +11,8 @@ function awesomeArrows(event){
 		loc = projectile.location;
 
 	if (projectile instanceof cmArrow && shooter instanceof cmPlayer){
-		projectile.distroy();
-		new.Drone(loc)
+		projectile.destroy();
+		new Drone(loc)
 			.tower();
 	}
 }
