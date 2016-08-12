@@ -1,5 +1,7 @@
 /*global require, server, Packages*/
 
+//This is an addition to the exploding arrow mod to add an ability to spawn chickens where your arrow lands.
+
 var items = require("items"),
     recipes = require("recipes"),
     events = require("events");
