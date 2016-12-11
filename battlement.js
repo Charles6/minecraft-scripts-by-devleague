@@ -9,7 +9,7 @@ function battlement( sections ) {
 }
 
   for (i = 0; i < sections; i++ ){
-    this 
+    this
       .up(1)
       .box(blocks.brick.stone,10,10,1)
       .right(3)
